@@ -93,4 +93,23 @@
 	- This process is repeated until it has worked through all the items on the list once. 
 	- It then starts again from the first two values.
 
+# Validation and Verification
+## Validation
+
+| Validation Typle | How it works                                                  |
+| ---------------- | ------------------------------------------------------------- |
+| Range check      | Checks if data is within 1 or 2 set boundaries                |
+| Length check     | To check if the number of characters is within the set limits |
+| Type check       | To check if the data is the correct type                      |
+| Presence check   | Checks if data has been entered                               |
+| Format check     | Checks if data is in a specific order                         |
+
+## Verification
+- Checking whether data entered is the same as the original
+
+| Verification | How it works                                                  |
+| ------------ | ------------------------------------------------------------- |
+| Visual Check | Comparing the entered data and the original data side by side |
+| Double entry check             |    Two different people enter the same data which are then compared                                                           |
+
 
