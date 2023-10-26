@@ -1,4 +1,4 @@
-## Program Development Life Cycle
+# Program Development Life Cycle
 - These stages include: ANALYSIS, DESIGN, CODING and TESTING
 
 ### Analysis
@@ -64,3 +64,33 @@
 	2. Abnormal - Data that the program shouldn't accept e.g "1234567" , "seven"
 	3. Extreme - Data that is at the edge of what is allowed e.g "12345678" , "wEg6!dh0"
 	4. Boundary - Data that is on the edge of being accepted and being rejected (either side of the limits) e.g "12345678" , "1234567"
+
+#Common Algorithms
+- A search algorithm is a set of data used t identify whether a specific vlaue of data exists or not. Example : 
+	- Linear search
+- A sorting algorithm takes a set of data and rearranges it to be in a specific order (ascending to descending, A to Z). Example:
+	- Bubble sort
+
+## Linear Search
+- Linear search checks for an item one at a time, starting with the first item and continuing until the last value.
+- Example:
+	- Search this set of data for the number 4.
+| 5   | 3   | 9   | 4   | 2   | 1   | 8   |
+	| --- | --- | --- | --- | --- | --- | --- |
+
+
+1. Compare if the first value(5) matches the search value(4). It does not. 
+2. Compare if the second value(3) matches the search value(4). It does not. 
+3. Compare if the third value(9) matches the search value(4). It does not. 
+4. Compare if the fourth value(4) matches the search value(4). It does. It has been found.
+
+## Bubble Sort
+- This is used to sort data on a specific order. 
+	- Bubble sort takes the first 2 values, 1 & 2 and compares thwm. 
+	- If they are the wrong way around, it'll swap them. 
+	- It continues and takes the next two values, 2 & 3 and compared them. 
+	- If they are the wrong way around it swaps them. 
+	- This process is repeated until it has worked through all the items on the list once. 
+	- It then starts again from the first two values.
+
+
